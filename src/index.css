@@ -1,0 +1,19 @@
+/* RESET */
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COULEUR DE FOND */
+body{
+  background-color: black;
+}
+
+/* TITRE PRINCIPALE DE LA PAGE  */
+h1{
+  color:white;
+  text-align: center;
+  margin-top: 15px;
+}
