@@ -1,12 +1,13 @@
 import "./markdownPreview.css"
+import ReactMarkdown from "react-markdown";
 
-export default function MarkdownPreview({text,setText}) {
+export default function MarkdownPreview({text}) {
   return (
-    <div >
+    <div  style={{width:"50vw",height:"70vh"}} >
       {/* POUR RECUPERER LE TEXTE ET JUSTE LE LIRE */}
-       <textarea value={text} onChange={(e) => setText(e.target.value)} readOnly >
-        {text}
-        </textarea>
+      
+      <ReactMarkdown>{text}</ReactMarkdown>
+      
     </div>
   )
 }
