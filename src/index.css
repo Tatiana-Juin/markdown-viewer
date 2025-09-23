@@ -12,7 +12,7 @@ body{
 }
 
 /* TITRE PRINCIPALE DE LA PAGE  */
-h1{
+.title{
   color:white;
   text-align: center;
   margin-top: 15px;
