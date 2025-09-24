@@ -7,13 +7,19 @@ export default function MarkdownInput() {
   // USESTATE POUR RECUPERER LE TEXTE 
   const [text,setText] = useState("")
 
+  // FONCTION POUR RESET LE CODE 
   const handleReset = ()=>{
     setText("")
   }
 
   return (
     <>
-        <button  onClick={handleReset} style={{backgroundColor:"white"}}> Reset </button>
+        <div className='div-reset'>
+            <button className='btn-reset'  onClick={handleReset} > Reset </button>
+          
+        </div>
+       
+
         <div className='div-return'>
           <textarea onChange={(e) => setText(e.target.value)} name="" id=""  className='view-return' value={text}   />
 
