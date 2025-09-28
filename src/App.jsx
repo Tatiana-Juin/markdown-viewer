@@ -9,11 +9,11 @@ function App() {
   
   return (
     <div >
-      <h1 className='title'>Mardown Viewer</h1>
+      <h1 className='title'>Mardown Preview</h1>
       
       <MarkdownInput />
 
-      {/* <MarkdownPreview /> */}
+    
     </div>
   )
 }

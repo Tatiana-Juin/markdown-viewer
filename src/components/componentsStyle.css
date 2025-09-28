@@ -3,7 +3,7 @@
 }
 
 /************************ FICHIER MARKDOWN-INPUT************************* */
-
+/* STYLE DE LA DIV QUI REGROUPE LE TEXTAREA */
 .div-return{
     display: flex;
     justify-content: center;
@@ -11,12 +11,12 @@
     margin-top: 20px;
 }
 
-
-
+/* STYLE POUR LE RESET  */
 .div-reset{
     display: flex;
     justify-content: center;
     margin-top: 30px;
+      gap: 10px;
 }
 
 /*  BTN RESET */
@@ -29,8 +29,8 @@
 
 }
 
-
 /* ************************* MARKDOWN PREVIEW + INPUT */
+
 .view-return{
     background-color: white;
     width:45vw;
